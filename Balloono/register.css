@@ -1,0 +1,23 @@
+label {
+  margin-bottom: 0.5rem;
+  display:block;
+}
+
+.register-container {
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-div {
+  margin-bottom: 1rem;
+}
+.register-input {
+  padding: 0.5rem 0.5rem;
+}
+
+.register-btn {
+  width:100%;
+}

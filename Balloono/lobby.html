@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Balloono</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="lobby.css" />
+	</head>
+
+	<body>
+		<nav>
+			<div class="lobby-nav-container">
+				
+				<div class="lobby-nav-add">
+					<button class="btn" id="lobby-create-room-btn">Create Game</button>
+					<button class="sign-out btn" id="sign-out">Sign Out</button>
+          <button class="btn" id="shop">Visit Shop</button>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<div class="lobby-container">
+				<div class="lobby-list-container" id="lobby-list-container"></div>
+			</div>
+		</main>
+
+		<template id="lobby-list-item-template">
+			<div class="lobby-list-item"></div>
+		</template>
+
+    <script src='lobby.js' type='module'></script>
+	</body>
+</html>

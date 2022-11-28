@@ -1,0 +1,38 @@
+.lobby-nav-container{
+  height:100%;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center
+}
+
+.room-find {
+  height:100%;
+}
+
+.room-find-container {
+  height:100%;
+  display:flex;
+  align-items: center;
+}
+
+.lobby-container {
+  width:100%;
+  height:calc(100% - var(--nav-height));
+  max-height:calc(100% - var(--nav-height));
+  padding-top: var(--nav-height);
+}
+
+.lobby-input {
+ margin:0 1rem;
+}
+
+.lobby-list-item {
+  padding:2rem;
+  border-bottom: 1px solid black
+}
+
+.lobby-list-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
